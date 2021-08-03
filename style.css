@@ -1,0 +1,87 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: gray;
+    margin: 0px 0px 10px 0px;
+    border-bottom: solid darkslategray 1px;
+    position: sticky;
+    top:0px;
+}
+header nav{
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+header a{
+    color: whitesmoke;
+}
+nav ul {
+    text-align: right;
+    list-style-type: none;
+    
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px;
+}
+section{
+    background-color: rgb(233, 233, 233);
+}
+.photo{
+    background-color: white;
+    display: block;
+    margin: 20px auto;
+    width: 25%;
+    border: solid 10px lightgray;
+    height: auto;
+    box-shadow: 0px 10px 15px 0px  rgba(50, 50, 50, .3) ;
+
+}
+section img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+form{
+    display: block;
+    clear: both;
+    border: solid 2px darkslateblue;
+    border-radius: 10px;
+    background-color: rgb(99, 98, 107);
+    width: 80%;
+    margin: 0px auto;
+}
+form div{
+    align-items: left;
+    width: 90%;
+    clear: both;
+    height: auto;
+    overflow: auto;
+}
+form label{
+    width: 15%;
+    float: left;
+    margin-top: 6px;
+}
+
+form input{
+    float: left;
+    width: 70%;
+    margin-top: 6px;
+}
+form button{
+    margin: 10px;
+}
+footer{
+    background-color: darkslategray;
+}
+footer li{
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 24px;
+}
+
+i{
+    color: white;
+}
